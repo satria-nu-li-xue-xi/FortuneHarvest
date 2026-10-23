@@ -2,7 +2,7 @@
 
 A Fabric mod for Minecraft Java 26.3 that makes the Fortune enchantment boost **wheat** and **beetroot** drops, not just their seeds.
 
-![Fortune Harvest icon](src/main/resources/assets/fortuneharvest/FHarvest1.png)
+![Fortune Harvest icon](src/main/resources/assets/fortune-harvest/FHarvest1.png)
 
 ## Why?
 In vanilla, Fortune gives extra carrots and potatoes, but for wheat and beetroot it only adds extra seeds. Fortune Harvest fixes that.
