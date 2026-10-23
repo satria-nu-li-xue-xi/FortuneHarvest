@@ -12,7 +12,7 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/fortune-harvest/icon.png",
+	"icon": "assets/fortune-harvest/FHarvest1.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
