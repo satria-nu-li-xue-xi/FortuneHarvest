@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "fortune-harvest",
+	"version": "${version}",
+	"name": "Fortune Harvest",
+	"description": "Tired of farming Wheat? So do I! at least now Fortune works here",
+	"authors": [
+		"QinMods"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/fortune-harvest/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.qin.fortuneharvest.FortuneHarvest"
+		],
+		"client": [
+			"com.qin.fortuneharvest.client.FortuneHarvestClient"
+		]
+	},
+	"mixins": [
+		"fortune-harvest.mixins.json",
+		{
+			"config": "fortune-harvest.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

@@ -41,5 +41,5 @@ replay_*.log
 
 # Project exclude paths
 /.github/
-/gradle/
-/src/
+
+local.properties
