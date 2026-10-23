@@ -22,13 +22,6 @@
 			"com.qin.fortuneharvest.client.FortuneHarvestClient"
 		]
 	},
-	"mixins": [
-		"fortune-harvest.mixins.json",
-		{
-			"config": "fortune-harvest.client.mixins.json",
-			"environment": "client"
-		}
-	],
 	"depends": {
 		"fabricloader": ">=0.19.5",
 		"minecraft": "~26.3",
